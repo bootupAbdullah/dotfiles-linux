@@ -104,6 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/usr/local/go/bin:$HOME/go/bin:$PATH
 # SSH agent
-eval "$(ssh-agent -s)" > /dev/null 2>&1
-ssh-add ~/.ssh/do_1_github > /dev/null 2>&1
+eval "$(keychain --eval --quiet ~/.ssh/do_1_github)"
 source ~/dotfiles-linux/shell/aliases.zsh
