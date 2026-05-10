@@ -106,3 +106,4 @@ export PATH=/usr/local/go/bin:$HOME/go/bin:$PATH
 # SSH agent
 eval "$(ssh-agent -s)" > /dev/null 2>&1
 ssh-add ~/.ssh/do_1_github > /dev/null 2>&1
+source ~/dotfiles-linux/shell/aliases.zsh
