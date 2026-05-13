@@ -15,7 +15,8 @@ alias gl="git log --oneline"
 # System
 alias ports="ss -tulnp"
 alias myip="curl -s ifconfig.me"
+alias update="bash ~/dotfiles-linux/scripts/util/run_updates.sh"
 
 # Logs
-alias log="cat ~/dotfiles-linux/_logs/_automation.log"
-alias clearlog="truncate -s 0 ~/dotfiles-linux/_logs/_automation.log"
+alias logs="cat ~/dotfiles-linux/_logs/_automation.log"
+alias clearlogs="bash ~/dotfiles-linux/scripts/util/clearlogs.sh"
