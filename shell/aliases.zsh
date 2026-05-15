@@ -11,6 +11,8 @@ alias dotfiles="cd ~/dotfiles-linux"
 alias gs="git status"
 alias gp="git push"
 alias gl="git log --oneline"
+alias gcm="git commit -m"
+alias ga="git add -A"
 
 # System
 alias ports="ss -tulnp"
@@ -19,4 +21,5 @@ alias update="bash ~/dotfiles-linux/scripts/util/run_updates.sh"
 
 # Logs
 alias logs="cat ~/dotfiles-linux/_logs/_automation.log"
+alias clearlog="truncate -s 0 ~/dotfiles-linux/_logs/_automation.log"
 alias clearlogs="bash ~/dotfiles-linux/scripts/util/clearlogs.sh"
