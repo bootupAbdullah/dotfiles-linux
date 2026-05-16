@@ -2,6 +2,7 @@
 alias x="exit"
 alias src="exec zsh"
 alias shortcuts="cat ~/dotfiles-linux/shell/references/shortcuts.md"
+alias aliases="nano  ~/dotfiles-linux/shell/aliases.zsh"
 
 # Navigation
 alias ll="ls -la"
