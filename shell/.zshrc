@@ -106,3 +106,6 @@ export PATH=/usr/local/go/bin:$HOME/go/bin:$PATH
 # SSH agent
 eval "$(keychain --eval --quiet ~/.ssh/do_1_github)"
 source ~/dotfiles-linux/shell/aliases.zsh
+# Startup checks
+~/dotfiles-linux/scripts/util/ufw_check.sh
+~/dotfiles-linux/scripts/util/health_check.sh

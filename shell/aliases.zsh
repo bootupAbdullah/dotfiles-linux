@@ -10,7 +10,7 @@ alias dotfiles="cd ~/dotfiles-linux"
 
 # Git
 alias gs="git status"
-alias gp="git push"
+alias gp="git push origin main"
 alias gl="git log --oneline"
 alias gcm="git commit -m"
 alias ga="git add -A"
